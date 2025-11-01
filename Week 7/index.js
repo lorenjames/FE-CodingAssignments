@@ -16,8 +16,7 @@ ages.push(40) //adding new value to end of array
 
 newAge = (ages[ages.length - 1] - ages[0]) //updating the new age value to show dynamic code
 
-console.log(`Updated with added age (${ages[ages.length - 1]}) 
-    First age (${ages[0]}) subtracted from Last age (${ages[ages.length - 1]}) is now ${newAge}`)
+console.log(`Updated with added age (${ages[ages.length - 1]}) First age (${ages[0]}) subtracted from Last age (${ages[ages.length - 1]}) is now ${newAge}`)
 
 let sumAge = 0;
 

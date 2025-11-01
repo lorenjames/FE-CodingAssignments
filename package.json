@@ -18,6 +18,10 @@
   "homepage": "https://github.com/lorenjames/FE-CodingAssignments#readme",
   "dependencies": {
     "bootstrap": "^5.3.8",
-    "jquery": "^3.7.1"
+    "jquery": "^3.7.1",
+    "mocha": "^11.7.4"
+  },
+  "devDependencies": {
+    "chai": "^6.2.0"
   }
 }
