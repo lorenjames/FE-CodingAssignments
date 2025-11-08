@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../node_modules/bootstrap/dist/css/bootstrap.css">
+
+    <title>Document</title>
+</head>
+
+<body class="container">
+    <br>
+    <h2>Dishware List <span class="badge text-bg-danger">For Sale</span></h2>
+    <div class="card">
+        <div class="card-body">
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-dishware-name">Maker / Pattern Name</label>
+                        <input type="text" class="form-control" id="new-dishware-name">
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <label for="new-dishware-piece" class="form-label">Dishware Piece</label>
+                    <input class="form-control" list="datalistOptions" id="new-dishware-piece"
+                        placeholder="Type to search...">
+                    <datalist id="datalistOptions">
+                        <option value="Dinner Plate">
+                        <option value="Salad Plate">
+                        <option value="Dessert Plate">
+                        <option value="Cup & Saucer">
+                        <option value="Serving Piece">
+                    </datalist>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-sm">
+                    <div class="form-group">
+                        <label for="new-task">Quantity</label>
+                        <input type="number" class="form-control" id="new-dishware-quantity" placeholder="0">
+                    </div>
+                </div>
+            </div>
+            <div> <button id="add" class="btn btn-primary form-control">Create</button></div>
+        </div>
+    </div>
+    <table id="list" class="table table-dark table-striped">
+        <tr>
+            <th>Quantity</th>
+            <th>Maker / Pattern</th>
+            <th>Piece</th>
+            <th>Delete?</th>
+        </tr>
+    </table>
+
+    <script src="index.js"></script>
+    <script src="../node_modules/jquery/dist/jquery.js"></script>
+    <script src="../node_modules/bootstrap/dist/js/bootstrap.bundle.js"></script>
+</body>
+
+</html>
