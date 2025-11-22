@@ -1,0 +1,27 @@
+body {
+    background-color: #010101;
+    overflow: hidden;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body,
+html {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+#mainSVG {
+    min-width: 100vw;
+    min-height: 100vh;
+    visibility: hidden;
+
+}
+
+.overlay {
+    mix-blend-mode: color-burn;
+}

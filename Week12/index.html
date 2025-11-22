@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <title>Shopping List</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="/node_modules/bootstrap/dist/css/bootstrap.min.css" />
+
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-dark mb-4">
+        <div class="container">
+            <span class="navbar-brand mb-0 h1">Shopping List</span>
+        </div>
+    </nav>
+
+    <main class="container">
+        <div class="card mb-4">
+            <div class="card-body">
+                <h5 class="card-title">Add an Item to Your Shopping List</h5>
+                <form id="itemForm">
+                    <div class="mb-3">
+                        <label for="name" class="form-label">Name of Item</label>
+                        <input type="text" id="name" class="form-control" placeholder="Enter an item name" required />
+                    </div>
+                    <div class="mb-3">
+                        <label for="comments" class="form-label">Comments / Quantity</label>
+                        <input type="text" id="comments" class="form-control"
+                            placeholder="Enter comments or quantity" />
+                    </div>
+                    <button type="submit" class="btn btn-primary">Create Item</button>
+                </form>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-title">Items</h5>
+                <div id="itemsContainer">
+                </div>
+            </div>
+        </div>
+    </main>
+
+
+    <script src="index.js"></script>
+</body>
+
+</html>

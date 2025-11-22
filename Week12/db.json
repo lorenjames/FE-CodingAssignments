@@ -1,0 +1,24 @@
+{
+  "items": [
+    {
+      "name": "bananas",
+      "comments": "because...always",
+      "id": 1
+    },
+    {
+      "name": "butter",
+      "comments": "2 boxes of unsalted",
+      "id": 2
+    },
+    {
+      "name": "flour",
+      "comments": "",
+      "id": 3
+    },
+    {
+      "name": "milk",
+      "comments": "small 2%",
+      "id": 5
+    }
+  ]
+}
