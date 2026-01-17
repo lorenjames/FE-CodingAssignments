@@ -1,0 +1,113 @@
+:root {
+  color: #1e1e1e;
+  background-color: #f7f7f7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Segoe UI', Tahoma, sans-serif;
+  min-height: 100vh;
+}
+
+.app-shell {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.app-main {
+  flex: 1;
+}
+
+.page-header {
+  padding: 40px 0 16px;
+}
+
+.page-subtitle {
+  max-width: 600px;
+  color: #555;
+}
+
+.page-section {
+  padding: 16px 0 40px;
+}
+
+.catalog-section {
+  padding: 16px 0 40px;
+}
+
+.form-card {
+  padding: 20px;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 8px;
+  margin-bottom: 20px;
+}
+
+.form-actions {
+  display: flex;
+  gap: 12px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+}
+
+.form-note {
+  margin-top: 12px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.catalog-card {
+  border-radius: 8px;
+  border: 1px solid #e1e1e1;
+  height: 100%;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 12px;
+  font-size: 0.85rem;
+  color: #666;
+}
+
+.card-actions {
+  display: flex;
+  gap: 8px;
+  margin-top: 12px;
+}
+
+.loading-state {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 8px 12px;
+  background: #ffffff;
+  border: 1px solid #e1e1e1;
+  border-radius: 999px;
+}
+
+.empty-state {
+  padding: 16px;
+  text-align: center;
+  background: #ffffff;
+  border-radius: 8px;
+  border: 1px dashed #d0d0d0;
+}
+
+.not-found {
+  padding: 40px 0;
+  text-align: center;
+}
+
+.app-footer {
+  padding: 16px 0;
+  background: #212529;
+  color: #ffffff;
+  text-align: center;
+}
